@@ -1,0 +1,51 @@
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+
+---display:flex;
+---justify-content:;
+---flex-direction:; 
+
+
+
+coluna:
+---align-items:;
+flex-start
+flex-end
+center
+baseline
+stretch
+
+
+
+---flex-direction;
+row
+row-reverse
+column
+column-reverse
+
+
+
+
+
+ 
+
+
+
+div.caixaum{
+    color: azure;
+    background-color: rgb(177, 115, 92) ;
+    width: 200px;
+    padding:25px;
+    border: 10px double;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+}
+img.esquerda{
+    width:400px;
+}
+ss

@@ -1,0 +1,34 @@
+body {background-color: rgb(160, 131, 81);
+}
+.top {
+    margin-top: 50px;
+    margin-right:25px;
+    margin-left: 100px;
+    padding: 50px 25px 50px 25px;
+    color:rgb(164, 91, 164);
+    background-color: rgb(169, 120, 215);
+    border:outset rgb(88, 82, 82);
+    position: relative;
+    font-size: larger;
+}
+.corpodotexto{
+        position: relative;
+        top:30px;
+        left:30px;
+}
+.corpodotexto{
+
+    padding: 200px 25px 200px 25px;
+    color:rgb(186, 60, 186);
+    background-color: rgb(169, 120, 215);
+    border:dotted 2px rgb(88, 82, 82);
+    position:relative ;
+    left:25%;
+    top:25%;
+    height: 400px;}
+
+
+
+
+
+       

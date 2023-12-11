@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+body{
+    background-image: linear-gradient(to bottom, rgb(4, 4, 4), rgba(55, 55, 65, 0.865), rgba(227, 204, 227, 0.947));
+    background-repeat: no-repeat;
+    height: 2900px;
+}
+#logo{
+    width: 150px;
+}
+#perfil{
+    width: 70px;
+    border: solid 2px black;
+    border-radius: 1000px;
+}
+.containerum{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(44, 49, 49, 0.945);
+    border-radius: 40px;
+    width: 100%;
+   
+    position: fixed;
+    z-index: 100;
+}
+input{
+    display: none;
+}
+.Inputt {
+    width: 450px;
+    height: 30px;
+    border-radius: 15px;
+    display: block;
+}
+.Iinputt:focus {
+    outline: 2px rgb(0, 0, 0) solid;
+}
+.dropbtn{
+    background-color: rgba(242, 239, 245, 0.916);
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    font-family: DynaPuff;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgba(66, 66, 67, 0.975);
+    min-width: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(224, 217, 217, 0.2);
+    z-index: 1;
+    border-radius: 30px;
+}
+.dropdown-content a{ 
+    color: rgb(255, 254, 254);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: DynaPuff;
+    border-radius: 30px;
+}
+.dropdown-content a:hover{
+    background-color: rgba(204, 199, 208, 0.906);
+    border-radius: 30px;
+}
+.dropdown:hover.dropbtn{
+    background-color: darkmagenta;
+    border-radius: 30px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    border-radius: 30px;
+}
+.containerdois{
+    width: 1500px;
+    height: 520px;
+    box-shadow:0 0 10px rgb(0, 0, 0); 
+    border-radius: 60px;
+    margin-top: 100px;
+}
+.slider{
+    width: 1500px;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 60px;
+}
+.navegação{
+    bottom: 300px;
+    display: flex;
+}
+.botões{
+    border:2px solid #100f0f;
+    padding:10px;
+    border-radius: 20px;
+    cursor:pointer;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-left: 300px;
+   margin-top: 10px;
+
+}
+
+.botões:hover{
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.slides{
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.slide{
+    width: 25%;
+    transition: 0.5s;
+}
+
+#slide1:checked~.first{
+    margin-left: 0;
+}
+
+#slide2:checked~.first{
+    margin-left: -25%;
+}
+
+#slide3:checked~.first{
+    margin-left: -50%;
+}
+
+#slide4:checked~.first{
+    margin-left: -75%;
+}
+
+#ajuste1{
+    width: 1520px;
+    height: 520px;
+    padding-top:3px;
+    padding-left: 0.5px;
+}
+
+.ajustes234{
+    height: 522px;
+    padding-top: 2px;
+    padding-left: 0.5px;
+    width: 1518px;
+}
+#recomendados{
+    font-family: DynaPuff;
+    font-size: 30px;
+    text-shadow: 20px white;
+}
+.linhaum{
+    width: 285px;
+    height: 185px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow:0vh 0 10px 10px rgba(95, 95, 100, 0.753);
+    border-radius: 20px;
+    
+
+}
+#linhaum {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.linhaum:hover{
+    transform: scale(1.1);
+}
+#linhadois{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.linhadois:hover{
+    transform: scale(1.1);
+}
+.linhadois{
+    width: 285px;
+    height: 185px;
+    margin-top: 20px;
+    cursor: pointer; 
+    box-shadow:0vh 0 10px 10px rgba(95, 95, 100, 0.753);
+    border-radius: 20px;
+
+
+}
+#linhatres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.linhatres:hover{
+    transform: scale(1.1);
+}
+.linhatres{
+    width: 285px;
+    height: 185px;
+    margin-top: 20px;
+    cursor: pointer; 
+    box-shadow:0vh 0 10px 10px rgba(95, 95, 100, 0.753);
+    border-radius: 20px;
+
+
+}
+#linhaquatro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.linhaquatro:hover{
+    transform: scale(1.1);
+}
+.linhaquatro{
+    width: 285px;
+    height: 185px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow:0vh 0 10px 10px  rgba(95, 95, 100, 0.753);
+    border-radius: 20px;
+
+
+}
+#linhacinco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+.linhacinco:hover{
+    transform: scale(1.1);
+}
+.linhacinco{
+    width: 285px;
+    height: 185px;
+    margin-top: 20px;
+    cursor: pointer; 
+    box-shadow:0vh 0 10px 10px rgba(95, 95, 100, 0.753);
+    border-radius: 20px;
+
+    
+}
+#linhaseis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.linhaseis:hover{
+    transform: scale(1.1);
+}
+.linhaseis{
+    width: 285px;
+    height: 185px;
+    margin-top: 20px;
+    cursor: pointer; 
+    box-shadow:0vh 0 10px 10px rgba(95, 95, 100, 0.753);
+    border-radius: 20px;
+
+
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button.outros{
+    font-family: DynaPuff;
+    color: aliceblue;
+    background-color: rgb(3, 30, 30);
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+button.pagamento{
+    font-family: DynaPuff;
+    color: aliceblue;
+    background-color: rgb(3, 30, 30);
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+hr .linha{
+    border: 10px;
+    color: rgb(0, 0, 0);
+}
+.quadro{
+    width: 1500px;
+    height: 500px;
+    background-color: #100f0f;
+    border-radius: 30px;
+}
+.quadroletras{
+    font-family: DynaPuff;
+    color: aliceblue;
+    z-index: 100; 
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.redes{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#instagram{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+#facebook{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+#tui{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+.letrasroda{
+    color: #fff;
+    font-family: DynaPuff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#tel{
+    width: 100px;
+    height: 100px;
+    margin-left: 700px;
+}
+#numerotel{
+    color: #fff;
+    font-family: DynaPuff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+}

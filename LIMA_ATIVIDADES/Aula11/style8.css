@@ -1,0 +1,86 @@
+body{ background-image:url(imagens/chocochoco.png); 
+background-size: cover;
+background-repeat:no repeat;
+}  
+
+
+
+
+
+center{background-color: blueviolet;}
+
+   
+ p.centro{
+        float:inline-start;
+        position: relative;
+        left: 250px;
+        height: 250;
+        text-align: center;
+        position: relative;
+        top: -150px; }  
+       
+
+
+.border {
+    margin-top: 0px;
+    margin-left: 500px;
+    height: 50%; 
+    width: 50%;
+    border: 1cm inset rgb(181, 121, 224);}
+
+
+    
+/*
+.menu {
+    display: inline;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(167, 149, 184);
+    width: 140px;
+    height:950px;
+}
+*/
+.vertical-menu{ 
+    width: 200px;
+}
+.vertical-menu a{
+    background-color: rgb(144, 76, 218);
+    color: rgb(187, 56, 93);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(139, 47, 129);
+}
+.vertical-menu a.active{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+
+h1.esquerda{
+        float:inline-start;
+        margin-right:1.0cm;}
+
+
+
+        p.centro2{ 
+        float:inline-start;
+        position: relative;
+        left: 250px;
+        height: 250;
+        text-align: center}        
+       
+        
+              
+
+            .bottom {
+                border: 1cm inset rgb(150, 90, 218);
+                position: relative;
+               }
+            
+
+
+        

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginaInicial</title>
+    <style>
+        #map{
+            height: 400px;
+            width: 100%;
+        }
+        #longitude{
+            margin-top: 900px
+        }
+    </style>
+    <link rel="shortcut icon" href="imagens/pelogo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+    <img id="logo" src="imagens/pelogo.png">
+    <ul> 
+        <div class="fonte">Menu</div>
+          <div class="menu">
+              <div class="dropdown">
+              <div class="dropdown-content">
+                  <div id="coisasmenu"><a href="http://127.0.0.1:5500/projeto-semestral/index2.html">Sobre</a></div>
+                  <div id="coisasmenu"><a href="http://127.0.0.1:5500/projeto-semestral/index4.html">Suporte</a></div>
+                  <div id="coisasmenu"><a href="http://127.0.0.1:5500/projeto-semestral/index6.html">Assinatura</a></div>
+              </div></div>
+          </div>
+      </ul>  
+    <video autoplay loop class="videofundo">
+
+        <source  src="imagens/Design sem nome (1).mp4" type="video/mp4">
+
+      </video>
+
+    <div id="botao">
+
+        <a href="http://127.0.0.1:5500/projeto-semestral/index3.html"><button class="cadastro">Assine</button></a>
+
+    </div>
+    <div id="diver">
+    <img source id="diversao"  src="imagens/Diversão para toda a sua família!.png">
+    </div>
+    <hr>
+
+
+    <div class="planos">Nossos Planos</div>
+
+    <div class="box">
+
+        <div class="boxum">
+
+            <div class="planoum">Plano Padrão</div>
+            <div id="precoum">
+        <img source id="padrao"  src="imagens/preco.png">
+        <img source id="qualidades" src="imagens/perffffff.png">
+
+        
+    </div> 
+
+        </div>
+
+        <div class="boxdois">
+             
+            <div class="planodois">Plano premium</div>
+            <div id="precodois">
+        <img source id="premium" src="imagens/preco_dois.png">
+        <img source id="qualidades" src="imagens/Acesso mesmo sem internet; Perfis ilimitados; Conteúdo lançado com antecedência; Qualidade 4K; Permitido o uso de 3 dispositivos ou mais..png">
+
+            </div>
+           
+
+     </div>
+    </div>
+    <div id="frasef">Escolha o melhor plano para você!</div>
+    <hr>
+    <div id="termos">Ajuda</div>
+    <div class="rodape">
+            
+
+
+
+        <div><button onclick="getLocation()">Localização da sede</button></div>
+        
+        <div class="termos">Privacidade</div>
+        <div class="termos">Direitos reservados</div>
+        <div class="termos">Ajuda</div>
+        <div class="termos">Avisos legais</div>
+        
+        <div id="longitude">
+            <p>Latitude: <span id="latitude"></span></p>
+            <p>Longitude: <span id="longitude"></span></p>
+        </Div>
+        <div id="map"></div>
+        
+    
+        <script>
+            let map;
+            function initMap(latitude, longitude){
+                if(!isNaN(parseFloat(latitude)) && !isNaN(parseFloat(longitude))){
+                    map = new google.maps.Map(document.getElementById('map'),{
+                        center : {lat: parseFloat(latitude), lng: parseFloat(longitude)},
+                        zoom: 12
+                    });
+                    new google.maps.Marker({
+                        position: {lat: parseFloat(latitude), lng: parseFloat(longitude)},
+                        map: map,
+                        title: 'sua localização'
+                    });
+                }else{
+                    alert('coordenadas invalidas');
+                }
+            }
+    
+            function getLocation(){
+                if(navigator.geolocation){
+                    navigator.geolocation.getCurrentPosition(showPosition, showError);
+                }else{
+                    alert('geolocalizacao nao é suportada por este navegador.');
+                }
+            }
+            function showPosition(position){
+                const latitudeElement = document.getElementById('latitude');
+                const longitudeElement = document.getElementById('longitude');
+                latitudeElement.innerText = position.coords.latitude;
+                longitudeElement.innerText = position.coords.longitude;
+                initMap(position.coords.latitude, position.coords.longitude);
+            }
+    
+            function showError(error){
+                switch(error.code){
+                    case error.PERMISSION_DENIED:
+                        alert('Permissao para geolocalização foi negada pelo usuario.');
+                        break;
+                        case error.POSITION_UNAVAILABLE:
+                                alert('Informações de localização indisponiveis.');
+                                break;
+                            case error.TIMEOUT:
+                                alert('Tempo limite esgotado ao tentar obter a localização.');
+                                break;
+                            case error.UNKNOWN_ERROR:
+                                alert('Ocorreu um erro desconhecido');
+                                break;
+                }
+            }
+    
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjeUAMSUsd2cznLqQJg0g7GvMWuU4pi68&callback=initMap"></script>
+    
+
+    </div>
+    
+    <div id="redes">
+        <img source class="redesocial" src="imagens/insta.webp">
+        <img source class="redesocial" src="imagens/faces.webp">
+        <img source class="redesocial" src="imagens/tui.webp">
+
+
+        
+
+    </div>
+    
+    
+
+   
+       
+
+
+
+</body>
+</html>

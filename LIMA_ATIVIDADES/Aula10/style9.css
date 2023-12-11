@@ -1,0 +1,9 @@
+div.caixaum{
+    background-color:lightgray;
+    width: 300px;
+    padding: 50px;
+    border: 20px dashed rgb(23, 23, 136);
+    margin: 25px;
+    text-align: justify;
+    text-indent: 1.25cm;
+}

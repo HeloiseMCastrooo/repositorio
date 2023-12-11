@@ -1,0 +1,60 @@
+.caixavermelha{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0) ;
+    width: 40px;
+    padding:70px;
+    border: 2px solid;
+    margin: 0px;
+    text-align: justify;
+    text-indent: none;
+    margin-left: 1px;
+    position: relative;
+    bottom: -555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.caixavioleta{ 
+    color: rgb(0, 0, 0);
+    background-color: rgb(80, 48, 220) ;
+    width: 40px;
+    padding:70px;
+    border: 2px solid;
+    margin: 0px;
+    text-align: justify;
+    text-indent: none;
+    margin-left: 1344px;
+    position: relative;
+    top:-173px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.caixaverde{
+    color: rgb(0, 0, 0);
+    background-color: rgb(44, 194, 94) ;
+    width: 40px;
+    padding:70px;
+    border: 2px solid;
+    margin: 0px;
+    text-align: justify;
+    text-indent: none;
+    margin-left: 1px;
+    position: relative;
+    top:240px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.caixaamarela{
+    color: rgb(0, 0, 0);
+    background-color: rgb(182, 194, 44) ;
+    width: 40px;
+    padding:70px;
+    border: 2px solid;
+    margin: -5px;
+    text-align: justify;
+    text-indent: none;
+    margin-left: 1342px;
+    position: relative;
+    top:82px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}

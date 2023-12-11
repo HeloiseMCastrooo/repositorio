@@ -1,0 +1,6 @@
+.border {
+    margin:10cm;
+    height: 50%; 
+    width: 50%;
+    border: 1cm inset rgb(165, 92, 218);
+}

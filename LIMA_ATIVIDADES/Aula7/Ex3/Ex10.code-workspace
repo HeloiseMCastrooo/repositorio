@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "../Ex10"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Ex1"
+		},
+		{
+			"path": "../Ex2"
+		},
+		{
+			"path": "../Ex4"
+		},
+		{
+			"path": "../Ex5"
+		},
+		{
+			"path": "../Ex6"
+		},
+		{
+			"path": "../Ex7"
+		},
+		{
+			"path": "../Ex8"
+		},
+		{
+			"path": "../Ex9"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ex10"
+	}
+}

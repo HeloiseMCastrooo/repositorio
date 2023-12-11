@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(177, 115, 92);
+    box-sizing: cover;
+}
+h1.letras{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    font-size: 5000;
+}
+img.esquerda{
+    width:600px;
+}
+.caixaum{
+    color: azure;
+    background-color: rgb(177, 115, 92) ;
+    width: 300px;
+    padding:40px;
+    border: 10px double;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#titulo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+} 
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

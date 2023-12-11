@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+div.caixaum{
+    background-color:rgb(236, 0, 0);
+    width: 50px;
+    padding: 50px;
+    border: 2px solid rgb(5, 5, 5);
+    color: white;
+    font-size:45px;
+    height: 50px;
+    font-size: 20px;
+}
+
+div.caixaumm{
+    background-color:rgb(255, 222, 7);
+    width: 50px;
+    padding: 50px;
+    border: 2px solid rgb(5, 5, 5);
+    color: white;
+    font-size:45px;
+    height: 50px;
+    font-size: 20px;
+    
+}
+
+div.caixaump{
+    background-color:rgb(244, 89, 234);
+    width: 50px;
+    padding: 50px;
+    border: 2px solid rgb(5, 5, 5);
+    color: white;
+    font-size:45px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+div.caixaumt{
+    background-color:rgb(42, 80, 208);
+    width: 50px;
+    padding: 50px;
+    border: 2px solid rgb(5, 5, 5);
+    color: white;
+}
+.container{
+    width:100% ;
+    height:1000px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:space-around;
+}
+.linha1,.linha2{
+    display: flex;
+    justify-content:space-between;
+    align-items:space-around;
+
+}

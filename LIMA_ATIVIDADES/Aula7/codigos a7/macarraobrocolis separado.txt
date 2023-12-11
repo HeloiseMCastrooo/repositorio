@@ -1,0 +1,34 @@
+<html> 
+ 
+ <head>
+  <meta charset="UTF-8">
+  </head>
+
+ <body>
+<hr> </hr>
+<h1> Macarrão ao molho branco com brócolis </h1>
+<hr> </hr>
+<th> <img src="imagens5/brocolisv.png"height"250"
+<br>
+<h3> Ingredientes </h3>
+<ul>
+ <li> 500 g de macarrão a sua escolha; </li>
+ <li> Água o bastante para cozinhá-lo; </li>
+ <li> 1 cebola pequena picada; </li>
+ <li> 1 colher de margarina </li>
+ <li> 1 caixinha de creme de leite </li>
+ <li> 1/2 litro de leite </li>
+ <li> 1 colher de sopa cheia de maizena <li>
+ <li> 1 xícara de queijo ralado (de preferência roquefort ou parmesão) </li>
+ <li> 1 colher de sobremesa rasa de sal </li>
+ <li> 2 pés de brócolis japonês cozidos no vapor </li>
+
+
+
+
+
+
+
+
+</body>
+</html>

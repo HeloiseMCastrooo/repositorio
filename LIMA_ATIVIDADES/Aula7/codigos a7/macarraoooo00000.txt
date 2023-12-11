@@ -1,0 +1,61 @@
+<html> 
+ 
+ <head>
+  <meta charset="UTF8">
+  </head>
+
+ <body>
+<table align="center">
+  
+ <caption> <h1>MENU</h1> </caption>
+  
+
+ 
+
+<!-- primeira linha da tabela-->
+<-- inicio links google<th> <a href="http://www.tudogostoso.com.br/receita/120236-macarrao-ao-molho-branco-e-brocolis.HTML"> <img src="imagens5/brocolisv.png."height="200"> </a> </th>
+<td> <a href="https://cybercook.com.br/receitas/massas/receita-de-espaguete-com-molho-de-tomate-4759"> <img src="imagens5/molhodetomate.png."height="200"></a> </td>
+<td> <a href="https://www.tudogostoso.com.br/receita/37939-macarrao-com-queijo.html"><img src="imagens5/queijo.png."height="200"></a> </td>
+<td> <a href="https://www.tudogostoso.com.br/receita/185131-macarrao-ao-molho-branco.html"> <img src="imagens5/molhobranco.png."height="200"> </a> </td> fim links google -->
+
+<hr> </hr>
+<h1> Macarrão ao molho branco com brócolis </h1>
+<hr> </hr>
+<th> <img src="imagens5/brocolisv.png"height"250"
+<br>
+<h3> Ingredientes </h3>
+<ul>
+ <li> 500 g de macarrão a sua escolha; </li>
+ <li> Água o bastante para cozinhá-lo; </li>
+ <li> 1 cebola pequena picada; </li>
+ <li> 1 colher de margarina </li>
+ <li> 1 caixinha de creme de leite </li>
+ <li> 1/2 litro de leite </li>
+ <li> 1 colher de sopa cheia de maizena <li>
+ <li> 1 xícara de queijo ralado (de preferência roquefort ou parmesão) </li>
+ <li> 1 colher de sobremesa rasa de sal </li>
+ <li> 2 pés de brócolis japonês cozidos no vapor </li>
+<br> <br>
+
+ <h3>Modo de preparo</h3>
+<ol typt="1">
+ <li> hbhsdv
+
+<!--segunda linha da tabela-->
+<tr>
+ <th> Macarrão ao molho branco com brócolis</th>
+ <th> Macarrão tradicional (molho de tomate) 
+ <th> Macarrão com queijo</th>
+ <th> Macarrão ao molho branco</th>
+</tr>
+
+
+
+</table>
+
+  
+ </body>
+</html>
+
+
+

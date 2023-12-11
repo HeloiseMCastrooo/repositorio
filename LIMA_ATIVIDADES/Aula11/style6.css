@@ -1,0 +1,17 @@
+h1.a{
+    display:none;
+    border:2px solid red;
+}
+h1.b{
+    visibility:hidden;
+    border: 2px solid blue;
+}
+
+li{display: block;}/*li versão inline*/
+span{display: block;}/*sapan versão em bloco */
+
+
+
+
+
+

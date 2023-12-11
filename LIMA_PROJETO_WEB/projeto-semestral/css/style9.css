@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+body{
+    background-color: black;
+}
+#titulo{
+    font-family: DynaPuff;
+    color: aliceblue;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+#perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 250px;
+}
+.fotoperfil{
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+.mais{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}

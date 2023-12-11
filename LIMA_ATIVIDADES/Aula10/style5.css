@@ -1,0 +1,23 @@
+/*link nao visitado*/
+a:link{color:rgb(148, 255, 127)}
+
+/* link visitado*/
+a:visited{color:rgba(245, 3, 3, 0.723)} 
+
+/* mouse sobre o link */
+ a:houver{color:rgb(139, 0, 137)} 
+
+/* link selecionado */
+ a:active{color:rgb(6, 53, 100)} 
+
+ /* primeiro <p> de um elemento */
+ p:first-child{color:rgb(0, 187, 255);}
+
+ /* primeiro <i> de todos */
+ p>i:first-child{color:rgb(0, 106, 255);}
+
+ /* todos <i> do primeiro <p> */
+ p:first-child i {color:rgb(255, 0, 255)}
+
+ /* qualquer <input> com foco */
+ input.focus{background-color:yellow;}

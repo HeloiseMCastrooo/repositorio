@@ -1,0 +1,13 @@
+
+#cabecalho{
+text-align:center;
+color:rgb(0, 0, 0);
+background-image:url("imagens/coca.png");
+background-size: 10% 100%;    
+}
+
+body { 
+
+    background-image:url("imagens/chocolatee.png");
+    background-size: 100% 500%;
+}

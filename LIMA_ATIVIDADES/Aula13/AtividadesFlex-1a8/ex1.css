@@ -1,0 +1,26 @@
+body {background-color: rgb(160, 131, 81);
+}
+.top {
+    justify-content: center;
+    padding: 50px 25px 50px 25px;
+    color:rgb(164, 91, 164);
+    background-color: rgb(169, 120, 215);
+    border:outset rgb(88, 82, 82);
+    position: relative;
+    font-size: larger;
+}
+.corpodotexto{
+    display: flex;
+    justify-content: center;       
+}
+.corpodotexto{
+
+    align-items: center;
+    color:rgb(186, 60, 186);
+    background-color: rgb(169, 120, 215);
+    border:dotted 2px rgb(88, 82, 82);
+    position:relative ;
+    justify-content: center;
+    height: 600px;
+    
+}

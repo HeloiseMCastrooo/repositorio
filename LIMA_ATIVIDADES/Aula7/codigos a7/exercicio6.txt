@@ -1,0 +1,19 @@
+<html> 
+
+<head>
+
+</head>
+<body>
+
+<table>
+ <caption> <h1>TABELA</h1> </caption>
+ <tr><!--Processador-->
+ <th> Velocidade (MHz) </th>
+ <th>Preço</th>
+ <th>Data de lançamento</th>
+ </tr>
+
+</table>
+</body
+ 
+</html>

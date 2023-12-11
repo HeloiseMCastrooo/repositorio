@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+#logo{
+    width: 250px;
+    height: 200px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.videofundo{
+    position:absolute;
+    right: 0;
+    bottom:0;
+    background-size: cover;
+    z-index: -100;
+}
+.fonte{
+    font-family: DynaPuff;
+    font-size: 60px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+#container{
+    width: 1000px;
+    height: 750px;
+}
+
+.menu a:hover{
+    font-family: DynaPuff;
+    font-size:35px;
+    text-decoration: none;
+    background-color: rgba(203, 203, 218, 0.559);
+    width: 1200px;
+    color: aliceblue;
+    border-radius: 30px;
+
+}
+li.dropdown{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.dropdown-content a{
+    color:aliceblue;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    font-family:DynaPuff ;
+}
+.dropdown-content a:hover{
+    background-color: rgba(202, 202, 214, 0.6);
+    width: 200px;
+}
+.quadro{
+    background-color: rgba(240, 248, 255, 0.87);
+    width: 550px;
+    height: 500px;
+    border-radius: 100px;
+    margin-left: 500px;
+    margin-top: -100px;
+    box-shadow: 10px 10px 100px 10px rgba(142, 138, 138, 0.779);
+
+}
+#fontepdois{
+    font-size: 50px;
+    font-family: DynaPuff;
+    color: rgba(0, 0, 0, 0.84);
+    margin-top: 30px;
+}
+#fonnntes{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -500px;
+    margin-left: 10px;
+    text-shadow: 100px;
+}
+#texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: rgb(3, 3, 3);
+   font-family: DynaPuff;
+   margin-left: 50px;
+   margin-top: 20px;
+}
+#rodape{
+    border: solid 2px;
+    color: aliceblue;
+    margin-top: 130px;
+}
+#insta{
+    width: 40px;
+    height: 40px;
+}
+.imagens{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}

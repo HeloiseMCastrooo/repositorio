@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom, rgb(201,134,255), rgb(58,239,255));
+}
+#container{
+    width: 1000px;
+    height: 737px;
+}
+#caixaum{
+    padding: 20px;
+    border-radius: 20px;
+    width: 1470px;
+    height: 90px;
+    background-color: azure; 
+}
+.verdea{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: 40px;
+}
+#lupa{
+    margin-top: -200px;
+    margin-left: 200px;
+    width: 50px;
+    height: 50px;
+}
+button{
+    border-radius: 40px;
+    background-color: aqua;
+    font-size: 30px;
+}
+buttonn{
+    border-radius: 40px;
+    background-color: aqua;
+    font-size: 30px;
+}
+buttonnn{
+    border-radius: 40px;
+    background-color: aqua;
+    font-size: 30px;
+}
+buttonnnn{
+    border-radius: 40px;
+    background-color: aqua;
+    font-size: 30px; 
+}
+#divBusca{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border:solid 1px;
+    border-radius:5px;
+    width:1000px;
+    height: 40px;
+    border-radius: 30px;
+}
+#txtBusca{
+    background-color:transparent;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:40px;
+    width:20cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#compicon{
+    margin-top: 50px;
+    width: 60px;
+    height: 60px;
+    margin-left:900px;
+}   
+.menu{
+    font-family: milonga;
+        margin-left:50px ;
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 20px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:  rgb(201,134,255);
+    min-height: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+        background-color: rgb(216, 204, 71);
+}
+.dropdown:hover .dropdown-content{
+        display: block;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+li a:hover , .dropdown:hover .drobtn{
+    background-color: crimson;
+}
+li .dropdown{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#caixadois{
+    display: flex;
+    flex-direction: row; 
+ }
+ #coluna{
+    flex-direction: column;
+}
+#h1{
+    text-shadow: 2px 1px rgb(255, 255, 255);
+    font-family: milonga;
+    font-size: 50px;
+    margin-left:40px;
+    margin-top: 50px;
+}
+.h3{
+    color: azure;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+    font-family: milonga;
+    font-size: 20px;
+    margin-left:40px;
+    margin-top: 10px;   
+}
+#rodape{
+    margin-top:600px;
+    border: 2px solid  rgb(151, 51, 197);
+    margin-left:-1000px;
+}
+.rodape{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: -200px;
+    font-size: 20px;
+}
+.p{
+    font-size: 20px;
+    margin-top: 400px;
+}
+.linhav{
+    border:2px solid rgb(128, 217, 231);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1500px;
+}
+#catalogo{
+    font-family: milonga;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.cat{
+    margin-left: 40px;
+    font-family: milonga;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: azure;
+    border-radius: 30px;
+    font-size: 25px;
+    width: 150px;
+    height: 40px;
+}
+.cat1{
+    margin-left: 40px;
+    font-family: milonga;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: azure;
+    border-radius: 30px;
+    font-size: 25px;
+    width: 150px;
+    height: 70px;
+}
+#circulo{
+    background-image: linear-gradient(to bottom, rgb(153, 51, 243), rgb(23, 171, 164), rgba(81, 0, 255, 0.301));
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 1250px;
+    margin-top: -151px;
+}
+#triangulo{
+    width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right:110px solid transparent ;
+    border-bottom: 190px solid rgba(240, 12, 39, 0.475);
+    margin-left: 1200px;
+    margin-top: -311px;
+}
+#circulo2{
+    background-image: linear-gradient(to bottom, rgba(168, 194, 52, 0.806), rgba(186, 220, 74, 0.445), rgba(57, 76, 216, 0.562));
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin-left: 300px;
+    margin-top: -250px; 
+}
+.bolas{
+    margin-left: 40px;
+    font-family: milonga;
+    display: flex;
+    border-left: -200px;
+   background-color: azure;
+    border-radius: 30px;
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+}
+

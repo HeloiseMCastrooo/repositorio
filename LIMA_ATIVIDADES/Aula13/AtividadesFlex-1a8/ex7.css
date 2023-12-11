@@ -1,0 +1,41 @@
+body{ 
+    background-color: rgb(17, 6, 78);
+    }
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-size:45px;
+}
+img.serie1{
+    width: 6cm;
+    height: 8cm;
+    justify-content:center;
+    align-items: center;
+    border: 5px solid white;
+}
+img.serie2{
+    width:6cm;
+    height:8cm;
+    
+}
+h2.titulo2{
+    text-align: center;
+    color: rgb(255, 252, 252);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;}
+video{
+    border: solid 5px white;
+    width: 1200px;
+}
+#im{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#imv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}  
+

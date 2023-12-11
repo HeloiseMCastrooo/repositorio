@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+.videofundo{
+    position:absolute;
+    right: 0;
+    bottom:0;
+    background-size: cover;
+    z-index: -100;
+    margin-bottom: -280px;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#voltar{
+    width: 150px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 220px;
+    z-index: -100px;
+    background-color: rgb(40, 32, 32);
+    padding: 5px;
+    border-radius: 30px;
+    border: solid 2px;
+    margin-top: -2000px;
+}
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#primnome{
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+}
+#email{
+    border-radius: 40px;
+    width: 300px;
+    height: 40px;
+  
+}
+#key{
+    border-radius: 40px;
+    width: 250px;
+    height: 40px;
+}
+
+h1{
+    font-size: 40px;
+    color: aliceblue;
+    font-family: DynaPuff;
+    margin-left: 200px;
+}
+h3{
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.644);
+    font-family: DynaPuff;
+    margin-top: -30px;
+    margin-left: 200px;
+}
+#nome{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: DynaPuff;
+}
+#emaill{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: DynaPuff;
+}
+#senha{
+    font-size:20px ;
+    color: aliceblue;
+    font-family: DynaPuff;
+}
+.caixainput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#botao{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 4px;
+    font-family: DynaPuff;
+    margin-left: 270px;
+}
+#boxtext{
+    height: 100px;
+    width: 400px;
+    background-color: rgb(227, 219, 234);
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 125px;
+    font-size: 20px;
+}
+#rodape{
+    border: solid 2px;
+    color: aliceblue;
+    margin-bottom: -200px;
+}
+#senhabox{
+    font-size:20px ;
+    color: aliceblue;
+    font-family: DynaPuff;
+    margin-left: 4px;
+}
+#key{
+    border-radius: 40px;
+    width: 250px;
+    height: 40px;
+}
+#movesenha{
+    margin-left: 200px;
+    margin-top: 30px;
+}

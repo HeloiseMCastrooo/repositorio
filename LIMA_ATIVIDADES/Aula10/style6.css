@@ -1,0 +1,29 @@
+ /* p{font-size: 12pt;}
+p::first-line{color:blue;font-variant: small-caps;}
+
+h1::before {content:url(imagens/bomdia.webp);}
+h1::after {content:url(imagens/bomdia.webp);}
+
+h2::before {content:url(imagens/patric.gif);}
+h2::after {content:url(imagens/patric.gif);}
+
+
+
+p::selection {color:red; background: yellow;} */
+
+
+div {background-image:url("imagens/chocolatee.png");
+    background-repeat:no-repeat;
+    background-position:right top;
+
+}
+
+
+
+
+
+
+
+
+
+

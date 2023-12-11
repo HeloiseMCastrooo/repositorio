@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom, rgb(201,134,255), rgb(58,239,255));
+}
+#container{
+    width: 1000px;
+    height: 737px;
+}
+#caixaum{
+    padding: 20px;
+    border-radius: 20px;
+    width: 1470px;
+    height: 90px;
+    background-color: azure; 
+}
+.verdea{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: 40px;
+}
+#lupa{
+    margin-top: -200px;
+    margin-left: 200px;
+    width: 50px;
+    height: 50px;
+}
+button{
+    border-radius: 40px;
+    background-color: aqua;
+    font-size: 30px;
+}
+buttonn{
+    border-radius: 40px;
+    background-color: aqua;
+    font-size: 30px;
+}
+buttonnn{
+    border-radius: 40px;
+    background-color: aqua;
+    font-size: 30px;
+}
+buttonnnn{
+    border-radius: 40px;
+    background-color: aqua;
+    font-size: 30px; 
+}
+#divBusca{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border:solid 1px;
+    border-radius:5px;
+    width:1000px;
+    height: 40px;
+    border-radius: 30px;
+}
+#txtBusca{
+    background-color:transparent;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:40px;
+    width:20cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#compicon{
+    margin-top: 50px;
+    width: 60px;
+    height: 60px;
+    margin-left:900px;
+}   
+.menu{
+    font-family: milonga;
+        margin-left:50px ;
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 20px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:  rgb(201,134,255);
+    min-height: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+        background-color: rgb(216, 204, 71);
+}
+.dropdown:hover .dropdown-content{
+        display: block;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+li a:hover , .dropdown:hover .drobtn{
+    background-color: crimson;
+}
+li .dropdown{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#caixadois{
+    display: flex;
+    flex-direction: row; 
+ }
+ #coluna{
+    flex-direction: column;
+}
+#h1{
+    text-shadow: 2px 1px rgb(255, 255, 255);
+    font-family: milonga;
+    font-size: 50px;
+    margin-left:40px;
+    margin-top: 50px;
+}
+.h3{
+    color: azure;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+    font-family: milonga;
+    font-size: 20px;
+    margin-left:40px;
+    margin-top: 10px;   
+}
+#rodape{
+    margin-top:50px;
+    border: 2px solid  rgb(151, 51, 197);
+    margin-left:-90px;
+}
+.rodape{
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: 700px;
+    font-size: 20px;
+}
+.linhav{
+    border:2px solid rgb(128, 217, 231);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1500px;
+}
+.acima{
+    font-family: milonga;
+    font-size: 40px;
+    margin-left: 600px;
+    margin-top: 20px;
+    text-shadow: 1px 1px white;
+}
+#caixawhi{
+    background-color: azure;
+    width: 900px;
+    height: 480px;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.frases{
+    font-size: 30px;
+    font-family: milonga;
+}
+.p{
+    font-size: 30px;
+}
